@@ -1,0 +1,20 @@
+body {
+  background-color: darkslateblue;
+}
+
+#lista1 {
+  color: black;
+  width: 150px;
+  background-color: #d2dddd;
+  padding: 20px;
+  list-style-type: none;
+  text-align: center;
+}
+
+button {
+  background-color: cornflowerblue;
+  padding: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Mountains of Christmas', cursive;
+}
