@@ -1,0 +1,71 @@
+#id1 {
+  color: red;
+}
+
+.class1 {
+  color: red;
+}
+
+.div1 {
+  background-image: url(../img/simpsons.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  background-color: #f0f500;
+}
+
+.div2 {
+  background-color: rgb(124, 0, 128);
+}
+
+/*unidades absolutas ou fixas*/
+
+#cm {
+  background-color: blue;
+  width: 1cm;
+  height: 1cm;
+}
+
+#mm {
+  background-color: red;
+  width: 1mm;
+  height: 1mm;
+}
+
+#in {
+  background-color: green;
+  width: 1in;
+  height: 1in;
+}
+
+#pixel {
+  background-color: purple;
+  width: 10px;
+  height: 10px;
+}
+
+#pt {
+  background-color: yellow;
+  width: 10pt;
+  height: 10pt;
+}
+
+#pc {
+  background-color: darkcyan;
+  width: 1pc;
+  height: 1pc;
+}
+
+.container {
+  font-size: 25px;
+  width: 300px;
+  background-color: red;
+}
+
+.inside {
+  font-size: 2em;
+  width: 2em;
+  background-color: blue;
+}
+
+/*em = equivalente em relação à fonte*/
