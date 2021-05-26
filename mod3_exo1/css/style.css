@@ -56,16 +56,76 @@
   height: 1pc;
 }
 
+html {
+  font-size: 20px;
+}
+
 .container {
-  font-size: 25px;
-  width: 300px;
+  width: 80%;
   background-color: red;
 }
 
 .inside {
-  font-size: 2em;
-  width: 2em;
+  width: 80%;
   background-color: blue;
 }
 
-/*em = equivalente em relação à fonte*/
+/*unidades de medidas relativas*/
+
+/*em = equivalente em relação à fonte do container ao qual está incluido */
+/*rem = refere-se ao tamanho da fonte do elemento raiz -exemplo em relação ao html */
+/*vw = dimensao da largura da janela*/
+/* % = porcentagem indica a dimensão em relação ao elemento pai*/
+
+#base {
+  height: 10px;
+  background-color: red;
+}
+
+#container1 {
+  background-color: blue;
+  color: white;
+  padding-top: 10px;
+}
+
+/*
+margin= distanciamento do elemento para fora dele
+padding=distanciamento do elemento em relação ao seu conteudo ou seja 
+ao seu conteúdo interno
+*/
+
+.borda {
+  border-width: 5px 2px 10px 15px;
+  border-color: red green blue yellow;
+  border-radius: 5px;
+}
+
+.borda1 {
+  border: 5px dashed blue;
+}
+
+.quadrado {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+.dotted {
+  border-style: dotted;
+}
+
+.dashed {
+  border-style: dashed;
+}
+
+.solid {
+  border-style: solid;
+}
+
+.none {
+  border-style: none;
+}
+
+.hidden {
+  border-style: hidden;
+}
