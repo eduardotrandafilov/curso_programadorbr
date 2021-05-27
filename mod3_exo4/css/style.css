@@ -1,0 +1,10 @@
+@font-face {
+  font-family: Rochester;
+  src: url(../fonts/Rochester-Regular.ttf);
+}
+
+h1,
+p {
+  font-family: Rochester;
+  font-weight: bold;
+}
