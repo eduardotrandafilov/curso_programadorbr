@@ -1,0 +1,27 @@
+.link {
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 10px solid red;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.link:visited {
+  color: black;
+}
+
+/*
+.link:hover {
+  background-color: green;
+  color: black;
+}
+*/
+
+.link:active {
+  background-color: green;
+  color: black;
+}
