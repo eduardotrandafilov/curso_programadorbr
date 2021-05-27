@@ -1,0 +1,24 @@
+p {
+  color: red;
+  text-align: justify;
+  text-indent: 10px;
+  /*
+  text-decoration: underline;
+  letter-spacing:1px ;
+  line-height: 30px;
+  word-spacing: 20px;
+  */
+  font-style: italic;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Limelight';
+
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  text-shadow: 10px 10px 2px blue;
+}
