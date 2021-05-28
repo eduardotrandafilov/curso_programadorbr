@@ -1,0 +1,52 @@
+.card {
+  background-image: url("../assets/backgorund.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: rgb(167, 4, 58);
+}
+
+ul {
+  padding-top: 15px;
+}
+
+li {
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: "helvetica";
+  src: url("../fonts/HelveticaMonospacedW06Rg.woff");
+}
+
+.font-custom {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: monospace, helvetica, sans-serif;
+}
+
+.font-custom-size-li {
+  font-size: 15px;
+  list-style-position: inside;
+}
+
+.icon-li-instagram {
+  list-style-image: url("../assets/Insta.png");
+}
+
+.icon-li-twitter {
+  list-style-image: url("../assets/Twitter.png");
+}
+
+.icon-li-youtube {
+  list-style-image: url("../assets/Youtube.png");
+}
