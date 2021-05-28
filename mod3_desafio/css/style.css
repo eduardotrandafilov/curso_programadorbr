@@ -1,9 +1,25 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: monospace;
+  font-weight: lighter;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 40px;
+
+}
+
 .card {
   background-image: url("../assets/backgorund.png");
+  box-sizing: border-box;
   background-repeat: no-repeat;
   background-size: cover;
   width: 400px;
   height: 200px;
+  margin: auto;
+  margin-top: 10%;
 }
 
 a {
@@ -13,10 +29,6 @@ a {
 
 a:visited {
   color: rgb(167, 4, 58);
-}
-
-ul {
-  padding-top: 15px;
 }
 
 li {
